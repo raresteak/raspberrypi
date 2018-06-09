@@ -21,6 +21,7 @@ chmod 555 /usr/local/bin/nmon
 mkdir -m 755 /var/log/nmon
 wget http://sourceforge.net/projects/nmon/files/nmonchart33.tar -O /usr/local/bin/
 tar xvf /usr/local/bin/monchart33.tar
+wget https://raw.githubusercontent.com/raresteak/linux_scripts/master/process_nmon.sh -O /usr/local/bin/
 
 # customize
 # partition spinning disk
