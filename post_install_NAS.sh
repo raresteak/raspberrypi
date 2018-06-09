@@ -19,6 +19,8 @@ raspi-config
 wget http://sourceforge.net/projects/nmon/files/nmon16e_arm_ubuntu1510 -O /usr/local/bin/nmon
 chmod 555 /usr/local/bin/nmon
 mkdir -m 755 /var/log/nmon
+wget http://sourceforge.net/projects/nmon/files/nmonchart33.tar -O /usr/local/bin/
+tar xvf /usr/local/bin/monchart33.tar
 
 # customize
 # partition spinning disk
