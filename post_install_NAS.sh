@@ -70,3 +70,5 @@ wget https://raw.githubusercontent.com/raresteak/linux_scripts/master/vimrc -O /
 # Disable or rename PI user
 
 # Set static IP /etc/dhcpcd.conf
+
+echo "Post installed `date +%c`" >> /etc/motd
