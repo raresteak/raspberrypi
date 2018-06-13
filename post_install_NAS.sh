@@ -12,6 +12,7 @@ pip install -upgrade pip
 systemctl enable smbd
 systemctl enable apache2
 systemctl enable sshd
+systemctl enable clamav-daemon
 
 raspi-config
 #adjust gpu memory
