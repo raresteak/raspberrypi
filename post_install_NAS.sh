@@ -5,7 +5,7 @@
 
 apt-get update && apt-get upgrade
 
-apt-get install vim python3 python3-pip tree ntp rclone wget samba samba-common-bin nfs-common apache2 byobu rkhunter
+apt-get install vim python3 python3-pip tree ntp rclone wget samba samba-common-bin nfs-common apache2 byobu rkhunter clamav clamav-daemon python-pyclamav clamav-docs
 
 pip install -upgrade pip
 
