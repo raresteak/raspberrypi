@@ -5,7 +5,7 @@
 
 apt-get update && apt-get upgrade
 
-apt-get install vim python3 python3-pip tree ntp rclone wget samba samba-common-bin nfs-common apache2 byobu rkhunter clamav clamav-daemon python-pyclamav clamav-docs
+apt-get install vim python3 python3-pip tree ntp wget samba samba-common-bin nfs-common apache2 byobu rkhunter clamav clamav-daemon python-pyclamav clamav-docs
 
 pip install -upgrade pip
 
@@ -71,5 +71,8 @@ wget https://raw.githubusercontent.com/raresteak/linux_scripts/master/vimrc -O /
 # Disable or rename PI user
 
 # Set static IP /etc/dhcpcd.conf
+
+#Get latest rclone build
+curl https://rclone.org/install.sh | sudo bash
 
 echo "Post installed `date +%c`" >> /etc/motd
