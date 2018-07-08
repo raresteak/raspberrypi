@@ -75,4 +75,9 @@ wget https://raw.githubusercontent.com/raresteak/linux_scripts/master/vimrc -O /
 #Get latest rclone build
 curl https://rclone.org/install.sh | sudo bash
 
+# Get OSSec hids
+wget https://github.com/ossec/ossec-hids/archive/2.9.4.tar.gz
+tar zcvf 2.9.4.tar.gz
+
+
 echo "Post installed `date +%c`" >> /etc/motd
