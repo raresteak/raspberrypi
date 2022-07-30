@@ -1,0 +1,5 @@
+#Add to [All] section
+dtoverlay=dwc2
+dtoverlay=gpio-shutdown,gpio_pin=3,active_low=1,gpio_pull=up
+gpu_mem=16
+dtoverlay=disable-bt
